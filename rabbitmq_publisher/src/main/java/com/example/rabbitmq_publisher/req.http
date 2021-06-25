@@ -1,0 +1,10 @@
+GET http://localhost:9081/record
+Accept: application/json
+
+###
+POST http://localhost:9081/do_work
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###

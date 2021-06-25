@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 107.21.144.111
+    port: 5672
+    username: guest
+    password: guest
+    template:
+      reply-timeout: 30000
+
+server:
+  port: 9080
